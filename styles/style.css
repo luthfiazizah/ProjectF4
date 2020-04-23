@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: auto;
+}
+
+header {
+    width: 100%;
+    background-color: rgba(64, 54, 48, 0.8);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.headerAtas {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    display: block;
+    border-radius: 6px;
+}
+
+.headerAtas a {
+    color: rgb(184, 115, 51);
+    background-color: rgba(85, 64, 49, 0.2);
+    padding-top: 20px;
+    padding-bottom: 21px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.home {
+    background: linear-gradient(to right, #A8BAA9, #FFF5CF, #DBCDAD, #B39C7D, #806854);
+    background-size: 200% 200%;
+    animation: rainbow 2s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 1);
+    transition: color .2s ease-in-out;
+
+}
+
+.instagram {
+    background: linear-gradient(to right, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+    background-size: 200% 200%;
+    animation: rainbow 2s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 1);
+    transition: color .2s ease-in-out;
+}
+
+.profile {
+    background: linear-gradient(to right, #eacda3, #d6ae7b, #7B3E00);
+    background-size: 200% 200%;
+    animation: rainbow 2s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 1);
+    transition: color .2s ease-in-out;
+}
+
+.home:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+.instagram:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+.profile:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: left
+    }
+
+    25% {
+        background-position: center
+    }
+
+    50% {
+        background-position: right
+    }
+
+    75% {
+        background-position: center
+    }
+
+    100% {
+        background-position: left
+    }
+}
+
+.isiUtama {
+    text-align: center;
+    color: rgb(255, 222, 173);
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/18/16/57/apple-1835803_960_720.jpg);
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    height: 550px;
+}
+
+.isiUtama h1 {
+    font-size: 40px;
+    letter-spacing: 8px;
+    margin-bottom: -10px;
+    opacity: 0.7;
+}
+
+.isiUtama h2 {
+    font-size: 25px;
+    letter-spacing: 7px;
+    opacity: 0.7;
+}
+
+.isiUtama p {
+    padding-top: 50px;
+    font-size: 20px;
+    opacity: 0.9;
+}
