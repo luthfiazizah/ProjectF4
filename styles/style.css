@@ -11,7 +11,11 @@ body {
 }
 
 .container {
-    width: auto;
+    width: 1170px; /*ada yang kutambahin*/
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
@@ -113,7 +117,7 @@ header {
     background-size: cover;
     padding-top: 70px;
     padding-bottom: 75px;
-    height: 450px;
+    height: 500px;
 }
 
 .isiUtama h1 {
@@ -134,3 +138,54 @@ header {
     font-size: 20px;
     opacity: 0.9;
 }
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.heading {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.heading h1 {
+    letter-spacing: 7px;
+    opacity: 0.7;
+}
+
+.profilAnggota {
+    height: 400px;
+    background-color: #FFEFD5; 
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.profiles {
+    float: left;
+    width: 20%;
+}
+
+.text {
+    /*kayaknya ini gak guna*/
+}
+
+a {
+    text-decoration: none;
+  }
+
+.ig {
+    background-color: #A0522D; /*gue bingung kasih warna apa*/
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
